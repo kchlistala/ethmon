@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM container4armhf/armhf-alpine
 
 RUN apk --no-cache add nodejs-current nodejs-current-npm bash
 
