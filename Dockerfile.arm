@@ -1,6 +1,4 @@
-FROM alpine:3.6
-
-RUN apk --no-cache add nodejs-current nodejs-current-npm bash
+FROM armhf/node
 
 COPY . ethmon
 
